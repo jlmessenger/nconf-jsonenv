@@ -1,0 +1,31 @@
+{
+  "name": "nconf-jsonenv",
+  "version": "1.0.0",
+  "description": "Configure nconf with JSON from environment variables",
+  "main": "lib/jsonenv.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "lib/",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "nconf",
+    "json",
+    "config",
+    "environment",
+    "variables",
+    "env",
+    "vars"
+  ],
+  "author": "jlmessenger <jlmessenger@users.noreply.github.com>",
+  "homepage": "https://github.com/jlmessenger/nconf-jsonenv",
+  "repository": "git+https://github.com/jlmessenger/nconf-jsonenv.git",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "nconf": "^0.10.0"
+  }
+}
